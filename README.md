@@ -1,25 +1,42 @@
-## 1. React JS 
+cat << 'EOF' > README.md
+# React Todo App with Vite and Simple CSS
 
-**Topics to Learn:**
+A simple Todo App built with React using Vite as the build tool and styled with plain CSS.
 
-- JSX syntax and rendering elements
-- Functional components vs Class components
-- Props and defaultProps
-- useState, useEffect, useRef hooks
-- Controlled vs uncontrolled components
-- Conditional rendering and list rendering (map, keys)
-- Component communication (props drilling, lifting state up)
-- Forms and input handling
-- Routing with React Router (v6)
-- Component-based UI design with TailwindCSS
+---
 
-**Challenge Task:**
-Build a **Todo App**:
+## Features
 
-- User can add a task (text input + add button)
-- User can delete a task
-- User can edit/update task inline
-- User can mark task as completed (with a strike-through style)
-- Filtering options: All, Completed, Pending
-- Use TailwindCSS for design
-- Save tasks in localStorage so they persist on refresh
+- Add tasks
+- Edit tasks inline
+- Mark tasks as completed (strike-through)
+- Delete tasks
+- Filter tasks: All, Completed, Pending
+- Tasks persist in localStorage
+
+---
+
+## Technologies Used
+
+- React 18+
+- Vite
+- React Hooks (`useState`, `useEffect`, `useRef`)
+- Plain CSS
+- Browser `localStorage`
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or above)
+- npm (comes with Node.js)
+
+### Steps
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/yourusername/react-todo-vite-css.git
+cd react-todo-vite-css
